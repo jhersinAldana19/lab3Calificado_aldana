@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #003b88; /* Color de fondo azul */
+  }
+  
+  .nav-link {
+    color: white !important;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .nav-link i {
+    margin-right: 5px;
+  }
+  
+  .nav-link:hover {
+    color: #ffda44 !important; /* Color de hover amarillo */
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+  

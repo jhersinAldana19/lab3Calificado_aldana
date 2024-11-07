@@ -1,0 +1,16 @@
+<div class="filter-container">
+    <h2>Filtrar Productos</h2>
+    <button (click)="filterCategory('All')">Todos</button>
+    <button (click)="filterCategory('HASNSANG')">HASNSANG</button>
+    <button (click)="filterCategory('SANGSIN')">SANGSIN</button>
+    <button (click)="filterCategory('VALEO')">VALEO</button>
+  </div>
+  
+  <div class="products-grid">
+    <div class="product-card" *ngFor="let product of filteredProducts">
+      <img [src]="product.image" alt="{{ product.name }}" />
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.category }}</p>
+    </div>
+  </div>
+  

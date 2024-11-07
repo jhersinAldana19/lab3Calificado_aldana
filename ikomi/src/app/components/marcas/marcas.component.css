@@ -1,0 +1,66 @@
+/* Estilos de .marcas-container */
+.marcas-container {
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 4rem; /* Espacio adicional en la parte inferior */
+  color: white;
+  background-color: #1a1a1a;
+  min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.marcas-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.marcas-container p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+}
+
+.marcas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.marca-card {
+  background-color: #333;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+.marca-card:hover {
+  transform: scale(1.05);
+}
+
+.marca-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.marca-card h3 {
+  color: #ffcc00;
+  margin: 0.5rem 0;
+}
+
+.marca-card p {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: relative; /* Cambia a relativo para que no cubra el contenido */
+}

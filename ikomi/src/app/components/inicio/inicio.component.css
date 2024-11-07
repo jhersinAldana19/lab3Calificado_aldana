@@ -1,0 +1,16 @@
+.inicio-background {
+    background-image: url('/assets/inicio/fondo.png'); /* Usa la ruta absoluta a la imagen */
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    height: 100vh; /* Establece la altura del contenedor a la altura de la ventana */
+    display: flex; /* Utiliza Flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    color: white; /* Cambia el color del texto según sea necesario */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Añade sombra para mejorar la legibilidad */
+  }
+  
+  .content {
+    text-align: center; /* Centra el texto */
+  }
+  

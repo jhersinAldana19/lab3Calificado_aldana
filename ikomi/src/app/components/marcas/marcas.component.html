@@ -1,0 +1,16 @@
+<div class="container">
+    <h2>Marcas</h2>
+    <p>Contamos con las marcas más reconocidas en el mercado.</p>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let marca of marcas">
+        <div class="card">
+          <img [src]="marca.imagen" [alt]="marca.nombre" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">{{ marca.nombre }}</h5>
+            <p class="card-text">{{ marca.descripcion }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
